@@ -57,7 +57,7 @@ jobs:
         run: cp ./public/html/googleb7ae45c84c746798.html ./public/
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
